@@ -1,0 +1,7 @@
+CV2 - Biblioteca de Python para procesamiento de imagenes
+
+MediaPipe - Permite crear canales de procesamiento de medios para inferencias de aprendizaje automático (ML) en tiempo real y en diversos dispositivos y plataformas, como móviles, web y la nube. Permite a los desarrolladores y investigadores implementar aplicaciones de visión por computadora y procesamiento de audio mediante el uso de modelos preentrenados para tareas como la detección de rostros, el seguimiento de manos, la detección de objetos y la segmentación. 
+
+NumPy - Es una biblioteca de Python para computación numérica que proporciona objetos de array multidimensional y una colección de funciones matemáticas para operar con ellos
+
+Deque - En Python, deque (pronunciado "deck") es una estructura de datos del módulo collections que representa una cola de doble extremo, permitiendo la adición y eliminación eficiente de elementos tanto del principio como del final.
