@@ -136,7 +136,7 @@ while True:
         cv2.putText(frame, f"PERCLOS: {perclos:.1f}%", (30,60), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255,255,255),2)
         cv2.putText(frame, f"Parpadeos totales: {blink_count}", (30,90), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255,255,255),2)
         cv2.putText(frame, f"Parpadeos/min: {bpm}", (30,120), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255,255,255),2)
-        cv2.putText(frame, f"Tiempo último parpadeo: {int(current_time - last_blink_time)} s", (30,150), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255,255,255),2)
+        cv2.putText(frame, f"Tiempo ultimo parpadeo: {int(current_time - last_blink_time)} s", (30,150), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255,255,255),2)
         cv2.putText(frame, f"Bostezo detectados: {yawn_count}", (30,180), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255,255,255),2)
         cv2.putText(frame, f"MAR actual: {mar:.2f}", (30,210), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255,255,0),2)
         cv2.putText(frame, f"Umbral MAR: {mar_threshold}", (30,240), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255,255,0),2)
