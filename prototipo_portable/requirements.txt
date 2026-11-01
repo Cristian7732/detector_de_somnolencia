@@ -1,0 +1,8 @@
+# Python 3.11 o 3.12 de 64 bits. Face Mesh legacy, disponible en ARM64.
+mediapipe==0.10.18
+numpy==1.26.4
+opencv-contrib-python==4.10.0.84
+sounddevice==0.5.6
+# Evitar que JAX reciente fuerce NumPy 2 sobre esta versión de MediaPipe.
+jax==0.4.35
+jaxlib==0.4.35
